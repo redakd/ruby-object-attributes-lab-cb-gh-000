@@ -11,8 +11,8 @@ class Dog
   @Breed
   end
 
-  def Breed = Breed1
-  @Breed = Breed1
+  def Breed = (new_breed)
+  @Breed = new_breed
   end
 
 end
